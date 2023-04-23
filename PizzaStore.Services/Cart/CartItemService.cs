@@ -38,7 +38,6 @@ namespace PizzaStore.Services.Cart
             }
         }
 
-
         public async Task Delete(int id)
         {
             var cartItem = await pizzaStoreContext.CartItems.FirstOrDefaultAsync(a => a.Id == id);
@@ -49,16 +48,5 @@ namespace PizzaStore.Services.Cart
                 await pizzaStoreContext.SaveChangesAsync();
             }
         }
-
-        //public async Task DeleteAll()
-        //{
-        //    var cartItems = await pizzaStoreContext.CartItems.ToListAsync();
-
-        //    if (cartItems.Count > 0)
-        //    {
-        //        pizzaStoreContext.RemoveRange(cartItems);
-        //        await pizzaStoreContext.SaveChangesAsync();
-        //    }
-        //}
     }
 }
