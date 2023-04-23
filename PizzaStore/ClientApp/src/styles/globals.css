@@ -1,0 +1,29 @@
+@import url("../fonts/Gilroy-Bold/style.css");
+@import url("../fonts/Gilroy-Semibold/style.css");
+@import url("../fonts/Gilroy-Medium/style.css");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+:root {
+  --main-bg-color: #0066a7;
+}
+
+
