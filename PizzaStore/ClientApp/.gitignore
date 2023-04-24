@@ -3,6 +3,10 @@
 # dependencies
 /node_modules
 
+/.next
+
+.next
+
 # testing
 /coverage
 
